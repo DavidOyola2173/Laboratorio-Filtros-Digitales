@@ -174,6 +174,7 @@ void loop() {
   */
   
   if(tiempo2>=tiempo1+2){  //Se obtendrá las muestras de velocidad, voltaje y PWM para los instantes de tiempo correspondientes al tiempo de muestreo.
+      //PARA UTILIZAR EL FILTRO EN EL TIEMPO DE MUESTREO *10 SE DEBE MULTIPLICAR DENTRO DEL IF EL MÚLTIPLO DE 10.
       tiempo1 = millis();   //En este caso se ingresa el tiempo de muestreo en el if.
       tiempo = tiempo1/1000;
       
