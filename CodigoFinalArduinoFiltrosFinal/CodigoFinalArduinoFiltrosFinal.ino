@@ -1,4 +1,4 @@
-/*Codigo Motor-Generador Dc:
+/*Codigo Motor-Generador Dc Filtros:
  * Autores: David Santiago Oyola Lozano
  * Diego Fernando Blanco Rueda
  * Heiner Camilo Varela
